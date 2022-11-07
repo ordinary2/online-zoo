@@ -11,11 +11,20 @@ body {
     max-width: 1160px;
 }
 
+.header-block {
+    display: flex;
+    align-items: center;
+}
+
 .logo-block {
     width: 82px;
     border: 1px solid white;
     border-radius: 2px;
     padding: 3px 0px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right: 63px;
+
 }
 
 .logo-button {
@@ -36,4 +45,46 @@ body {
     position: absolute;
     top: 20px;
     left: 10px;
+}
+
+.navigation-bar {
+    margin-right: 428px;
+}
+
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list-item-link {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list-item:first-child a {
+    color: #F9804B;
+}
+
+.list-item:last-child {
+    min-width: 78px;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 58px;
+    text-transform: capitalize;
+}
+
+.design-link {
+    color: #fff;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
 }
